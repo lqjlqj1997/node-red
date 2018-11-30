@@ -1,0 +1,6 @@
+curl -u e8d8213b-986c-4668-995c-16fe7eaa4268:MrhkE88gKJrB  http://gateway.watsonplatform.net/language-translator/api/v2/identifiable_languages
+
+curl --user e8d8213b-986c-4668-995c-16fe7eaa4268:MrhkE88gKJrB --request POST --header "Content-Type: text/plain" --data "Language Translator translates text from one language to another" https://gateway.watsonplatform.net/language-translator/api/v3/identify?version=2018-05-01
+
+
+curl --user e8d8213b-986c-4668-995c-16fe7eaa4268:MrhkE88gKJrB "https://gateway.watsonplatform.net/language-translator/api/v3/identifiable_languages?version=2018-05-01"
